@@ -1,0 +1,13 @@
+{
+    "name": "your-project/login-system",
+    "description": "Simple login system with Google and Facebook",
+    "require": {
+        "php": ">=7.4",
+        "google/apiclient": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
